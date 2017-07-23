@@ -1,0 +1,11 @@
+This library is used to divide a sequence of objects into a sequence
+of subsequences of those objects, such that the result is optimal
+according to a cost function supplied by client code.
+
+The main use for this library so far has been in an editor for music
+scores where it serves the purpose of dividing a sequence of measures
+into a sequence of lines, where each line contains one or more
+measures.
+
+A related use case would be to divide the words of a paragraph of text
+into lines, where each line contains one or more words.
