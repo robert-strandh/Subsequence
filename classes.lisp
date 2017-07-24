@@ -1,5 +1,9 @@
 (cl:in-package #:subsequence)
 
+;;; The base class of sequences.  Client code must mix this class into
+;;; any sequence that should be treated.
+(defclass sequence () ())
+
 ;;; The base class for all cost descriptors.  A cost descriptor
 ;;; contains everything that is required to compute individual costs,
 ;;; sequence costs, and total costs. Client code must mix this class
