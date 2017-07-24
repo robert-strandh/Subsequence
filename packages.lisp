@@ -2,4 +2,4 @@
 
 (defpackage #:subsequence
   (:use #:common-lisp)
-  (:export))
+  (:export #:cost-descriptor))
