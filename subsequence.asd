@@ -6,4 +6,5 @@
   :license "FreeBSD, see file LICENSE.text"
   :serial t
   :components
-  ((:file "packages")))
+  ((:file "packages")
+   (:file "classes")))
