@@ -5,4 +5,6 @@
   (:shadow #:sequence)
   (:export #:cost-descriptor
            #:sequence
-           #:element))
+           #:element
+           #:next-element
+           #:previous-element))
