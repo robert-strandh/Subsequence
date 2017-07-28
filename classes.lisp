@@ -4,6 +4,11 @@
 ;;; any sequence that should be treated.
 (defclass sequence () ())
 
+;;; The base class of all objects that can be elements of a sequence.
+;;; Client code must mix this class into any class of elements to be
+;;; contained in a sequence.
+(defclass element () ())
+
 ;;; The base class for all cost descriptors.  A cost descriptor
 ;;; contains everything that is required to compute individual costs,
 ;;; sequence costs, and total costs. Client code must mix this class
